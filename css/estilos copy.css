@@ -435,8 +435,9 @@ body {
 }
 
 .footer-logo img {
-  width: 200px;
+  width: 100px;
   height: auto;
+  margin: auto 20px;
 }
 
 .footer-contact {
@@ -533,6 +534,20 @@ body {
     gap: 20px;
     justify-items: center;
     align-items: center;
+  }
+
+  .productos {
+    background-color: var(--color-menu);
+    width: 150px;
+    height: 250px;
+
+  }
+
+  .btn-producto {
+    background-color: var(--color-menu);
+    color: #fff;
+    width: 75px;
+    height: 30px;
   }
 
   /* Seccion Novedades*/
